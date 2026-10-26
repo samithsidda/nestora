@@ -7,8 +7,8 @@ const recommendationRoutes = require("./routes/recommendationRoutes");
 const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://nestora-phi-six.vercel.app",
-];
+  process.env.CLIENT_ORIGIN,
+].filter(Boolean);
 
 app.use(
   cors({
