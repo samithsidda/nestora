@@ -1,0 +1,110 @@
+[
+  {
+    "id": "desk-001",
+    "name": "Minimalist Study Desk",
+    "category": "desk",
+    "price": 6500,
+    "currency": "INR",
+    "material": "engineered wood",
+    "color": "black",
+    "dimensions": {
+      "width": 100,
+      "depth": 60,
+      "height": 75,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": ["minimalist design", "laptop-friendly"],
+    "availability": "in_stock"
+  },
+  {
+    "id": "desk-002",
+    "name": "Compact Oak Study Desk",
+    "category": "desk",
+    "price": 7200,
+    "currency": "INR",
+    "material": "oak veneer",
+    "color": "brown",
+    "dimensions": {
+      "width": 90,
+      "depth": 50,
+      "height": 74,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": ["compact design", "storage shelf"],
+    "availability": "in_stock"
+  },
+  {
+    "id": "desk-003",
+    "name": "Adjustable Work Desk",
+    "category": "desk",
+    "price": 7800,
+    "currency": "INR",
+    "material": "engineered wood",
+    "color": "black",
+    "dimensions": {
+      "width": 100,
+      "depth": 60,
+      "height": 72,
+      "unit": "cm"
+    },
+    "adjustableHeight": true,
+    "features": ["height adjustable", "cable management"],
+    "availability": "in_stock"
+  },
+  {
+    "id": "chair-001",
+    "name": "Ergonomic Office Chair",
+    "category": "chair",
+    "price": 4500,
+    "currency": "INR",
+    "material": "mesh and metal",
+    "color": "black",
+    "dimensions": {
+      "width": 65,
+      "depth": 65,
+      "height": 110,
+      "unit": "cm"
+    },
+    "adjustableHeight": true,
+    "features": ["lumbar support", "adjustable seat"],
+    "availability": "in_stock"
+  },
+  {
+    "id": "shelf-001",
+    "name": "Minimalist Bookshelf",
+    "category": "shelf",
+    "price": 5500,
+    "currency": "INR",
+    "material": "engineered wood",
+    "color": "black",
+    "dimensions": {
+      "width": 80,
+      "depth": 30,
+      "height": 150,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": ["open shelves", "minimalist design"],
+    "availability": "in_stock"
+  },
+  {
+    "id": "desk-004",
+    "name": "Premium Executive Desk",
+    "category": "desk",
+    "price": 12500,
+    "currency": "INR",
+    "material": "solid wood",
+    "color": "brown",
+    "dimensions": {
+      "width": 140,
+      "depth": 70,
+      "height": 76,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": ["large work surface", "drawer storage"],
+    "availability": "in_stock"
+  }
+]
