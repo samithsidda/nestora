@@ -87,6 +87,7 @@ describe("Nestora Recommendation Service", () => {
       price: 7800,
       currency: "INR",
       reason: "It is adjustable and within your budget.",
+      evidence: ["height adjustable", "cable management"],
     });
 
     expect(mockCreate).toHaveBeenCalledTimes(1);

@@ -25,6 +25,7 @@ describe("Nestora Recommendation API", () => {
           price: 7800,
           currency: "INR",
           reason: "It is adjustable and within your budget.",
+          evidence: ["height adjustable", "cable management"],
         },
       ],
     });
@@ -96,10 +97,10 @@ describe("Nestora Recommendation API", () => {
     const response = await request(app)
       .post("/api/recommendations")
       .send({
-        userRequest: "Find a desk costing at least 20000 rupees.",
+        userRequest: "Find a desk costing at least 100000 rupees.",
         filters: {
           category: "desk",
-          minPrice: 20000,
+          minPrice: 100000,
         },
       });
 
@@ -108,7 +109,7 @@ describe("Nestora Recommendation API", () => {
     expect(response.body.recommendations).toEqual([]);
 
     expect(generateRecommendations).toHaveBeenCalledWith(
-      "Find a desk costing at least 20000 rupees.",
+      "Find a desk costing at least 100000 rupees.",
       []
     );
   });

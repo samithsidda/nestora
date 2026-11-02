@@ -18,7 +18,7 @@ const priceRanges = {
     label: "Premium",
     minPrice: 10000,
     maxPrice: 20000,
-  x},
+  },
   luxury: {
     label: "Luxury",
     minPrice: 20000,

@@ -123,6 +123,7 @@ async function generateRecommendations(userRequest, products) {
         price: product.price,
         currency: product.currency,
         reason: recommendation.reason,
+        evidence: recommendation.evidence,
       };
     }),
   };

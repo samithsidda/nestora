@@ -93,7 +93,7 @@ function ProductList() {
 
                 <div className="product-rating" aria-label="Catalogue item">
                     <span className="product-category">
-                    {product.category}
+                    {product.category?.replace("_", " ")}
                     </span>
                     <span className="product-color">{product.color}</span>
                 </div>

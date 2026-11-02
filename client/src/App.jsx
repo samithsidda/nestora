@@ -5,20 +5,33 @@ import "./App.css";
 
 function App() {
   return (
-    <main className="app">
+    <div className="page-wrapper">
       <header className="app-header">
-        <h1>Nestora </h1>
-        <p>
-          Discover furniture that fits your space, style, and budget.
-        </p>
+        <div className="header-container">
+          <div className="brand-group">
+            <span className="brand-badge">HOME LIVING</span>
+            <h1 className="brand-title">Nestora</h1>
+          </div>
+          <p className="brand-tagline">
+            Discover furniture that fits your space, style, and budget.
+          </p>
+        </div>
       </header>
 
-      <RecommendationForm />
+      <main className="app">
+        <RecommendationForm />
 
-      <hr />
+        <div className="section-divider" role="separator">
+          <span className="divider-label">EXPLORE COMPLETE COLLECTION</span>
+        </div>
 
-      <ProductList />
-    </main>
+        <ProductList />
+      </main>
+
+      <footer className="app-footer">
+        <p>© 2026 Nestora. Verified catalogue search & grounded recommendations.</p>
+      </footer>
+    </div>
   );
 }
 

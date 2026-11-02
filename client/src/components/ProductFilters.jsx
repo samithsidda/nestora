@@ -47,6 +47,11 @@ function ProductFilters({ onSearch }) {
         <option value="desk">Desk</option>
         <option value="chair">Chair</option>
         <option value="shelf">Shelf</option>
+        <option value="sofa">Sofa</option>
+        <option value="table">Table</option>
+        <option value="bed">Bed</option>
+        <option value="tv_unit">TV Unit</option>
+        <option value="wardrobe">Wardrobe</option>
       </select>
 
       <label htmlFor="minPrice">Minimum price (₹)</label>

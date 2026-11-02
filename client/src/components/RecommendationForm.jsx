@@ -35,7 +35,7 @@ function RecommendationForm() {
 
   return (
     <section className="recommendation-section">
-      <h2>Ask Nestora AI</h2>
+      <h2>Ask Nestora</h2>
       <p>
         Describe what you need, and AI will find matching furniture
         from our catalogue.
@@ -96,6 +96,20 @@ function RecommendationForm() {
                         <span className="reason-heading">Why this matches</span>
                         <p>{product.reason}</p>
                     </div>
+
+                    {Array.isArray(product.evidence) && product.evidence.length > 0 && (
+                      <div className="recommendation-evidence">
+                        <span className="evidence-heading">Verified features</span>
+                        <div className="evidence-badges">
+                          {product.evidence.map((feature, idx) => (
+                            <span className="evidence-badge" key={idx}>
+                              <span className="evidence-check" aria-hidden="true">✓</span>
+                              {feature}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
                     </div>
                 </article>
                 ))}

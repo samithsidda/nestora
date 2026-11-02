@@ -657,7 +657,7 @@
     "price": 6200,
     "currency": "INR",
     "material": "mesh and metal",
-    "color": "black",
+    "color": "grey",
     "dimensions": {
       "width": 65,
       "depth": 65,
