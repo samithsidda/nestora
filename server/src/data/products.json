@@ -14,7 +14,10 @@
       "unit": "cm"
     },
     "adjustableHeight": false,
-    "features": ["minimalist design", "laptop-friendly"],
+    "features": [
+      "minimalist design",
+      "laptop-friendly"
+    ],
     "availability": "in_stock"
   },
   {
@@ -32,7 +35,10 @@
       "unit": "cm"
     },
     "adjustableHeight": false,
-    "features": ["compact design", "storage shelf"],
+    "features": [
+      "compact design",
+      "storage shelf"
+    ],
     "availability": "in_stock"
   },
   {
@@ -50,7 +56,10 @@
       "unit": "cm"
     },
     "adjustableHeight": true,
-    "features": ["height adjustable", "cable management"],
+    "features": [
+      "height adjustable",
+      "cable management"
+    ],
     "availability": "in_stock"
   },
   {
@@ -68,7 +77,10 @@
       "unit": "cm"
     },
     "adjustableHeight": true,
-    "features": ["lumbar support", "adjustable seat"],
+    "features": [
+      "lumbar support",
+      "adjustable seat"
+    ],
     "availability": "in_stock"
   },
   {
@@ -86,7 +98,10 @@
       "unit": "cm"
     },
     "adjustableHeight": false,
-    "features": ["open shelves", "minimalist design"],
+    "features": [
+      "open shelves",
+      "minimalist design"
+    ],
     "availability": "in_stock"
   },
   {
@@ -104,7 +119,645 @@
       "unit": "cm"
     },
     "adjustableHeight": false,
-    "features": ["large work surface", "drawer storage"],
+    "features": [
+      "large work surface",
+      "drawer storage"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "desk-005",
+    "name": "Scandinavian Writing Desk",
+    "category": "desk",
+    "price": 8900,
+    "currency": "INR",
+    "material": "oak veneer",
+    "color": "natural oak",
+    "dimensions": {
+      "width": 110,
+      "depth": 55,
+      "height": 75,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "Scandinavian style",
+      "slim profile"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "desk-006",
+    "name": "Corner Computer Desk",
+    "category": "desk",
+    "price": 10900,
+    "currency": "INR",
+    "material": "engineered wood",
+    "color": "white",
+    "dimensions": {
+      "width": 120,
+      "depth": 80,
+      "height": 75,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "corner design",
+      "space saving"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "desk-007",
+    "name": "Industrial Metal Frame Desk",
+    "category": "desk",
+    "price": 9500,
+    "currency": "INR",
+    "material": "wood and steel",
+    "color": "walnut brown",
+    "dimensions": {
+      "width": 120,
+      "depth": 60,
+      "height": 74,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "industrial style",
+      "steel frame"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "desk-008",
+    "name": "Two-Drawer Home Office Desk",
+    "category": "desk",
+    "price": 11500,
+    "currency": "INR",
+    "material": "engineered wood",
+    "color": "white",
+    "dimensions": {
+      "width": 120,
+      "depth": 60,
+      "height": 75,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "two drawers",
+      "concealed storage"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "desk-009",
+    "name": "Electric Standing Desk",
+    "category": "desk",
+    "price": 24900,
+    "currency": "INR",
+    "material": "engineered wood and steel",
+    "color": "black",
+    "dimensions": {
+      "width": 120,
+      "depth": 70,
+      "height": 72,
+      "unit": "cm"
+    },
+    "adjustableHeight": true,
+    "features": [
+      "electric height adjustment",
+      "memory presets"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "desk-010",
+    "name": "Small Apartment Laptop Desk",
+    "category": "desk",
+    "price": 3900,
+    "currency": "INR",
+    "material": "engineered wood",
+    "color": "white",
+    "dimensions": {
+      "width": 80,
+      "depth": 45,
+      "height": 73,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "small-space design",
+      "lightweight"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "chair-002",
+    "name": "Padded Task Chair",
+    "category": "chair",
+    "price": 3200,
+    "currency": "INR",
+    "material": "fabric and metal",
+    "color": "grey",
+    "dimensions": {
+      "width": 58,
+      "depth": 58,
+      "height": 95,
+      "unit": "cm"
+    },
+    "adjustableHeight": true,
+    "features": [
+      "padded seat",
+      "adjustable height"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "chair-003",
+    "name": "High-Back Executive Chair",
+    "category": "chair",
+    "price": 8900,
+    "currency": "INR",
+    "material": "faux leather and metal",
+    "color": "black",
+    "dimensions": {
+      "width": 68,
+      "depth": 70,
+      "height": 120,
+      "unit": "cm"
+    },
+    "adjustableHeight": true,
+    "features": [
+      "high backrest",
+      "tilt mechanism"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "chair-004",
+    "name": "Mid-Back Mesh Chair",
+    "category": "chair",
+    "price": 3800,
+    "currency": "INR",
+    "material": "mesh and plastic",
+    "color": "grey",
+    "dimensions": {
+      "width": 60,
+      "depth": 60,
+      "height": 100,
+      "unit": "cm"
+    },
+    "adjustableHeight": true,
+    "features": [
+      "breathable mesh",
+      "tilt support"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "chair-005",
+    "name": "Compact Armless Desk Chair",
+    "category": "chair",
+    "price": 2600,
+    "currency": "INR",
+    "material": "fabric and metal",
+    "color": "blue",
+    "dimensions": {
+      "width": 52,
+      "depth": 55,
+      "height": 88,
+      "unit": "cm"
+    },
+    "adjustableHeight": true,
+    "features": [
+      "armless design",
+      "compact footprint"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "chair-006",
+    "name": "Ergonomic Lumbar Support Chair",
+    "category": "chair",
+    "price": 7200,
+    "currency": "INR",
+    "material": "mesh and nylon",
+    "color": "black",
+    "dimensions": {
+      "width": 64,
+      "depth": 64,
+      "height": 112,
+      "unit": "cm"
+    },
+    "adjustableHeight": true,
+    "features": [
+      "adjustable lumbar support",
+      "headrest"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "chair-007",
+    "name": "Wooden Dining Chair",
+    "category": "chair",
+    "price": 2800,
+    "currency": "INR",
+    "material": "solid rubberwood",
+    "color": "natural wood",
+    "dimensions": {
+      "width": 45,
+      "depth": 50,
+      "height": 85,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "curved backrest",
+      "solid wood frame"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "chair-008",
+    "name": "Upholstered Accent Chair",
+    "category": "chair",
+    "price": 7900,
+    "currency": "INR",
+    "material": "linen fabric and wood",
+    "color": "beige",
+    "dimensions": {
+      "width": 75,
+      "depth": 72,
+      "height": 82,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "soft upholstery",
+      "accent seating"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "chair-009",
+    "name": "Velvet Lounge Chair",
+    "category": "chair",
+    "price": 12400,
+    "currency": "INR",
+    "material": "velvet and wood",
+    "color": "emerald green",
+    "dimensions": {
+      "width": 78,
+      "depth": 76,
+      "height": 85,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "velvet upholstery",
+      "rounded arms"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "shelf-002",
+    "name": "Tall Five-Tier Bookshelf",
+    "category": "shelf",
+    "price": 7600,
+    "currency": "INR",
+    "material": "engineered wood",
+    "color": "brown",
+    "dimensions": {
+      "width": 70,
+      "depth": 30,
+      "height": 180,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "five open tiers",
+      "vertical storage"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "shelf-003",
+    "name": "Low Wide Bookcase",
+    "category": "shelf",
+    "price": 6900,
+    "currency": "INR",
+    "material": "engineered wood",
+    "color": "white",
+    "dimensions": {
+      "width": 120,
+      "depth": 30,
+      "height": 90,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "wide shelves",
+      "low profile"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "shelf-004",
+    "name": "Ladder Display Shelf",
+    "category": "shelf",
+    "price": 4200,
+    "currency": "INR",
+    "material": "metal and engineered wood",
+    "color": "black",
+    "dimensions": {
+      "width": 60,
+      "depth": 35,
+      "height": 160,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "ladder silhouette",
+      "display storage"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "shelf-005",
+    "name": "Industrial Pipe Bookshelf",
+    "category": "shelf",
+    "price": 9800,
+    "currency": "INR",
+    "material": "solid wood and steel",
+    "color": "walnut brown",
+    "dimensions": {
+      "width": 90,
+      "depth": 35,
+      "height": 170,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "industrial frame",
+      "open shelving"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "shelf-006",
+    "name": "Wall-Mounted Floating Shelves Set",
+    "category": "shelf",
+    "price": 1800,
+    "currency": "INR",
+    "material": "MDF",
+    "color": "white",
+    "dimensions": {
+      "width": 60,
+      "depth": 20,
+      "height": 15,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "wall mounted",
+      "set of three"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "shelf-007",
+    "name": "Cube Storage Organizer",
+    "category": "shelf",
+    "price": 3500,
+    "currency": "INR",
+    "material": "engineered wood",
+    "color": "grey",
+    "dimensions": {
+      "width": 90,
+      "depth": 30,
+      "height": 90,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "modular cubes",
+      "multi-purpose storage"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "sofa-001",
+    "name": "Two-Seater Compact Sofa",
+    "category": "sofa",
+    "price": 18900,
+    "currency": "INR",
+    "material": "polyester fabric and wood",
+    "color": "grey",
+    "dimensions": {
+      "width": 150,
+      "depth": 82,
+      "height": 85,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "compact two-seater",
+      "removable cushions"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "sofa-002",
+    "name": "Three-Seater Linen Sofa",
+    "category": "sofa",
+    "price": 32900,
+    "currency": "INR",
+    "material": "linen blend and hardwood",
+    "color": "beige",
+    "dimensions": {
+      "width": 210,
+      "depth": 88,
+      "height": 86,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "three-seater",
+      "linen upholstery"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "table-004",
+    "name": "Rectangular Dining Table",
+    "category": "table",
+    "price": 14900,
+    "currency": "INR",
+    "material": "rubberwood",
+    "color": "natural wood",
+    "dimensions": {
+      "width": 140,
+      "depth": 80,
+      "height": 75,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "four-person dining",
+      "solid legs"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "table-005",
+    "name": "Extendable Dining Table",
+    "category": "table",
+    "price": 22900,
+    "currency": "INR",
+    "material": "engineered wood",
+    "color": "oak",
+    "dimensions": {
+      "width": 160,
+      "depth": 90,
+      "height": 76,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "extendable tabletop",
+      "family dining"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "bed-004",
+    "name": "Upholstered Storage Bed",
+    "category": "bed",
+    "price": 18900,
+    "currency": "INR",
+    "material": "fabric and engineered wood",
+    "color": "beige",
+    "dimensions": {
+      "width": 160,
+      "depth": 210,
+      "height": 110,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "upholstered headboard",
+      "under-bed drawer storage"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "chair-010",
+    "name": "Ergonomic Mesh Office Chair",
+    "category": "chair",
+    "price": 6200,
+    "currency": "INR",
+    "material": "mesh and metal",
+    "color": "black",
+    "dimensions": {
+      "width": 65,
+      "depth": 65,
+      "height": 115,
+      "unit": "cm"
+    },
+    "adjustableHeight": true,
+    "features": [
+      "breathable mesh back",
+      "adjustable headrest",
+      "lumbar support"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "desk-011",
+    "name": "Executive Storage Desk",
+    "category": "desk",
+    "price": 11500,
+    "currency": "INR",
+    "material": "engineered wood and metal",
+    "color": "brown",
+    "dimensions": {
+      "width": 140,
+      "depth": 60,
+      "height": 76,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "spacious work surface",
+      "drawer storage",
+      "metal frame"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "table-007",
+    "name": "Lift-Top Storage Coffee Table",
+    "category": "table",
+    "price": 8900,
+    "currency": "INR",
+    "material": "engineered wood and metal",
+    "color": "brown",
+    "dimensions": {
+      "width": 110,
+      "depth": 60,
+      "height": 45,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "lift-top surface",
+      "lower storage shelf",
+      "drawer storage"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "tv-002",
+    "name": "Mid-Century TV Console",
+    "category": "tv_unit",
+    "price": 9800,
+    "currency": "INR",
+    "material": "engineered wood",
+    "color": "brown",
+    "dimensions": {
+      "width": 150,
+      "depth": 40,
+      "height": 55,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "slatted cabinet doors",
+      "open media shelf",
+      "drawer storage"
+    ],
+    "availability": "in_stock"
+  },
+  {
+    "id": "wardrobe-001",
+    "name": "Modern Wooden Wardrobe",
+    "category": "wardrobe",
+    "price": 22900,
+    "currency": "INR",
+    "material": "engineered wood",
+    "color": "brown",
+    "dimensions": {
+      "width": 160,
+      "depth": 55,
+      "height": 200,
+      "unit": "cm"
+    },
+    "adjustableHeight": false,
+    "features": [
+      "four-door storage",
+      "mirrored center doors",
+      "lower drawers"
+    ],
     "availability": "in_stock"
   }
 ]
